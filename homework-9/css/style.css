@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 200px;
+    background-color: #353434f7;
+    text-align: center;
+    line-height: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.box-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 200px;
+    background: linear-gradient(to right, red, yellow, green, cyan, blue, magenta);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 65px;
+    color: white;
+    font-size: 24px;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.731);
+}
+
+.box-3 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, purple, black, violet);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.box-4 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, white, black);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 300px;
+}
+
+.box-5 {
+    position: absolute;
+    bottom: 0px;
+    left: 300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to right, black, rgb(0, 0, 140));
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.box-6 {
+    position: absolute;
+    bottom: 0px;
+    left: 500px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, yellow, rgb(177, 176, 176));
+    color: rgb(55, 54, 54);
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box-7 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 250px;
+    height: 250px;
+    border-radius: 120px 0 120px 0;
+    background: linear-gradient(to right, black, rgb(0, 0, 140));
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 250px;
+}
